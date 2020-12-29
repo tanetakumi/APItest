@@ -2,3 +2,12 @@ name: APIreader
 version: ${project.version}
 main: net.serveron.mcstar.apireader.APIreader
 api-version: 1.16
+depend: [WorldEdit]
+commands:
+  cg:
+    usage: /cg
+    description: Custom Game
+permissions:
+  cg.*:
+    description: Gives access to all commands
+    default: op
