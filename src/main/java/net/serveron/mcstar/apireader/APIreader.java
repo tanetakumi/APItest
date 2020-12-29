@@ -7,7 +7,7 @@ public final class APIreader extends JavaPlugin {
     @Override
     public void onEnable() {
         // Plugin startup logic
-        getServer().getLogger("init");
+        //getLogger().lo
     }
 
     @Override
