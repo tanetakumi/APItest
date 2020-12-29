@@ -1,0 +1,4 @@
+name: APIreader
+version: ${project.version}
+main: net.serveron.mcstar.apireader.APIreader
+api-version: 1.16
