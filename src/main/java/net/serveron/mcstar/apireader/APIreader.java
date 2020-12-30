@@ -15,7 +15,7 @@ public final class APIreader extends JavaPlugin {
         initFolder();
         wePlugin = getWorldEdit();
         if(wePlugin==null)getLogger().info("getWorldEdit");
-        else getLogger().info("CPuld not find");
+        else getLogger().info("Could not find");
         new Command(this);
     }
 
